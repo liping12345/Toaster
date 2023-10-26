@@ -2,6 +2,7 @@ package com.hjq.toast.demo;
 
 import android.app.Application;
 
+import com.hjq.toast.ToastUtils;
 import com.hjq.toast.Toaster;
 
 /**
@@ -18,5 +19,6 @@ public final class ToastApplication extends Application {
 
         // 初始化 Toast 框架
         Toaster.init(this);
+//        ToastUtils.init(this);
     }
 }
